@@ -23,9 +23,8 @@ for script in \
   fstab       \
   kernel      \
   grub        \
-  $VM_TYPE    \
+  virtualbox  \
   network     \
-  vagrant     \
   cleanup
 do
   "$SCRIPTS/scripts/$script.sh"
