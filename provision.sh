@@ -1,4 +1,9 @@
 #!/bin/bash
+## Setting environment variables
+# Latest kernel
+export KERN=4.5.0
+# Latest VirtualBox guest additions
+export VBGA=5.0.16
 
 if [[ -z $STAGE3 ]]
 then
