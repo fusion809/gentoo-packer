@@ -17,18 +17,18 @@ fi
 chmod +x $SCRIPTS/scripts/*.sh
 
 for script in \
-  partition   \
-  stage3      \
-  mounts      \
-  resolv.conf \
-  portage     \
-  timezone    \
-  fstab       \
-  kernel      \
-  grub        \
-  virtualbox  \
-  network     \
-  cleanup
+  01-partition   \
+  02-stage3      \
+  03-mounts      \
+  04-resolv.conf \
+  05-portage     \
+  06-timezone    \
+  07-fstab       \
+  08-kernel      \
+  09-grub        \
+  10-virtualbox  \
+  11-network     \
+  12-cleanup
 do
   "$SCRIPTS/scripts/$script.sh"
 done
